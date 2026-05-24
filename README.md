@@ -1,14 +1,14 @@
 # 🏥 Medical Insurance Cost Predictor
 ### Assignment-02 | CLO-2 — Multivariate Regression | Production-Grade ML
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://YOUR-APP-NAME.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://medical-insurance-expense-predictor.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Pipeline-orange?logo=scikit-learn)
 ![MLflow](https://img.shields.io/badge/MLflow-Tracked-blue?logo=mlflow)
 ![SHAP](https://img.shields.io/badge/SHAP-Explainable_AI-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-> **Live Demo →** [Click here to try the app](https://YOUR-APP-NAME.streamlit.app)  
+> **Live Demo →** [Click here to try the app](https://medical-insurance-expense-predictor.streamlit.app/)  
 > Predict your annual medical insurance cost in real-time using a trained Gradient Boosting model.
 
 ---
@@ -138,7 +138,7 @@ mlflow ui
 ```
 pandas
 numpy
-scikit-learn
+scikit-learn == 1.8.0
 xgboost
 shap
 mlflow
@@ -174,9 +174,7 @@ ColumnTransformer
 
 ## 👤 Author
 
-**Your Name**  
-Department of Computer Science  
-Assignment-02 | CLO-2 | Multivariate Regression
+**Malik Usama Arif**  
 
 ---
 
