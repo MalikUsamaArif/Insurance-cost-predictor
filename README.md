@@ -1,7 +1,5 @@
 # 🏥 Medical Insurance Cost Predictor
-### Assignment-02 | CLO-2 — Multivariate Regression | Production-Grade ML
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://medical-insurance-expense-predictor.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Pipeline-orange?logo=scikit-learn)
 ![MLflow](https://img.shields.io/badge/MLflow-Tracked-blue?logo=mlflow)
@@ -13,13 +11,13 @@
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Medical insurance pricing is complex and depends on many patient-level factors. This project builds a **multivariate regression system** that predicts individual annual insurance charges using demographic and health features — combining production-grade ML engineering with domain-aware feature design.
 
 ---
 
-## ✨ Key Features & Enhancements
+## Key Features & Enhancements
 
 | # | Enhancement | Description |
 |---|---|---|
@@ -31,7 +29,7 @@ Medical insurance pricing is complex and depends on many patient-level factors. 
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Property | Value |
 |---|---|
@@ -58,11 +56,11 @@ Medical insurance pricing is complex and depends on many patient-level factors. 
 
 ---
 
-## 🏆 Model Results
+## Model Results
 
 | Model | CV R² | Test R² | Test MAE | Test RMSE |
 |---|---|---|---|---|
-| **Gradient Boosting** ⭐ | 0.9776 | **0.9821** | $1,509 | $1,962 |
+| **Gradient Boosting**  | 0.9776 | **0.9821** | $1,509 | $1,962 |
 | XGBoost | 0.9765 | 0.9813 | $1,561 | $2,005 |
 | Random Forest | 0.9780 | 0.9805 | $1,585 | $2,044 |
 | Linear Regression | 0.9783 | 0.9798 | $1,663 | $2,083 |
@@ -73,7 +71,7 @@ Medical insurance pricing is complex and depends on many patient-level factors. 
 
 ---
 
-## 💼 Business Impact
+## Business Impact
 
 | Metric | Baseline (Mean Price) | Our Model |
 |---|---|---|
@@ -82,7 +80,7 @@ Medical insurance pricing is complex and depends on many patient-level factors. 
 
 ---
 
-## 🔍 SHAP Model Interpretability
+## SHAP Model Interpretability
 
 SHAP (SHapley Additive exPlanations) explains every individual prediction:
 
@@ -92,7 +90,7 @@ SHAP (SHapley Additive exPlanations) explains every individual prediction:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 insurance-cost-predictor/
@@ -107,7 +105,7 @@ insurance-cost-predictor/
 
 ---
 
-## 🚀 Run Locally
+## Run Locally
 
 ### 1. Clone the repo
 ```bash
@@ -133,7 +131,7 @@ mlflow ui
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 ```
 pandas
@@ -150,7 +148,7 @@ seaborn
 
 ---
 
-## 🧠 Pipeline Architecture
+## Pipeline Architecture
 
 ```
 Raw Patient Data
@@ -172,7 +170,7 @@ ColumnTransformer
 
 ---
 
-## 👤 Author
+## Author
 
 **Malik Usama Arif**  
 
